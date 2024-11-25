@@ -1,0 +1,122 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".AddAbsenceActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/addAbsenceTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ajouter une absence"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:paddingBottom="16dp"
+                android:textColor="@color/black" />
+
+            <!-- Date Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp" />
+            <EditText
+                android:id="@+id/dateInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Sélectionner une date"
+                android:focusable="false"
+                android:inputType="none"
+                android:drawableEnd="@drawable/ic_calendar"
+                android:padding="12dp"
+                android:background="@drawable/input_background" />
+
+            <!-- Time Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Heure"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp" />
+            <EditText
+                android:id="@+id/timeInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Sélectionner une heure"
+                android:focusable="false"
+                android:inputType="none"
+                android:drawableEnd="@drawable/ic_time"
+                android:padding="12dp"
+                android:background="@drawable/input_background" />
+
+            <!-- Room Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salle"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp" />
+            <EditText
+                android:id="@+id/roomInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Entrer le numéro de salle"
+                android:inputType="text"
+                android:padding="12dp"
+                android:background="@drawable/input_background" />
+
+            <!-- Class Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Classe"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp" />
+            <EditText
+                android:id="@+id/classInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Entrer la classe"
+                android:inputType="text"
+                android:padding="12dp"
+                android:background="@drawable/input_background" />
+
+            <!-- Agent ID Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID Agent"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp" />
+            <EditText
+                android:id="@+id/agentIdInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Entrer l'ID de l'agent"
+                android:inputType="text"
+                android:padding="12dp"
+                android:background="@drawable/input_background" />
+
+            <!-- Submit Button -->
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ajouter"
+                android:textStyle="bold"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="@color/primary"
+                android:textColor="@color/white"
+                android:padding="12dp" />
+        </LinearLayout>
+    </ScrollView>

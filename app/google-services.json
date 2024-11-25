@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "711883949759",
+    "project_id": "escetapp",
+    "storage_bucket": "escetapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711883949759:android:bd4b0fd474a8b1e11ba80a",
+        "android_client_info": {
+          "package_name": "dev.mobile.ensapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAiE1t5pivx0xfVTr_n-JaCvDQlnj4PVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
